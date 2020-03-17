@@ -10,7 +10,7 @@ public class ReaderString {
         String name = bufferedReader.readLine();
         String sAge = bufferedReader.readLine();
         int nAge = Integer.parseInt(sAge);
-        System.out.print(name + " " + nAge);
+
     }
 
 }
