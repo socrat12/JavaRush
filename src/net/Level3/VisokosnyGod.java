@@ -12,15 +12,11 @@ static private void VGod (int god){
         System.out.print("количество дней в году: 366");
     else
         System.out.print("количество дней в году: 365");
-
 }
-
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String x = reader.readLine();
         int God = Integer.parseInt(x);
         VGod(God);
     }
-
-
 }
