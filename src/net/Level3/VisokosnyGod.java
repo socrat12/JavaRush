@@ -3,7 +3,7 @@ package net.Level3;
 import java.io.*;
 
 public class VisokosnyGod {
-static void VGod (int god){
+static private void VGod (int god){
     if (god%400==0)
         System.out.print("количество дней в году: 366");
     else  if (god%100==0)
